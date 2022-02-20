@@ -12,7 +12,7 @@ body {
 #container {
     background:  #ede9cc url(../imagens/bg-container.png) top center repeat-y;
     margin: 0 auto;
-    min-width: 740px;
+    min-width: 960px;
     max-width: 1180px;
 }
 
@@ -150,12 +150,14 @@ p {
     margin-bottom: 10px;
 }
 
+
 .ap-cont {
     position: absolute;
-    margin-left: 5px;
     font-size: 0.8em;
-    padding: 13px;
     color: #000;
+    width: 20%;
+    margin-left: 5px;
+    min-width: 300px;
 }
 
 #beneficios li:hover {
